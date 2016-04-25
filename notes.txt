@@ -1,0 +1,22 @@
+# Declaring an array
+
+1.Assign a value to an element of an array that does not exist
+
+			$my_array[2] = 2006;
+
+2. Use the array construct 
+
+$my_array=array(); # creates empty array
+
+or
+
+$my_array = array("Hello",2, TRUE);
+
+Example
+
+$prime[0] = 2;
+$prime[1] = 3;
+$prime[] = 5; # 5 s stored in index 2.
+
+Note: even if the script had a scalar variable called $prime before the assignment $prime[0] = 1
+$prime becomes an array
